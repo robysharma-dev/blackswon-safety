@@ -11,12 +11,13 @@ export default function Navbar() {
           alt="Blackswon Logo" 
           width={60} 
           height={30} 
+          priority
           style={{ width: 'auto', height: 'auto' }}
           className="object-contain"
         />
       </div>
 
-      {/* Menu Items - Text color white kiya taaki image par dikhe */}
+      {/* Menu Items */}
       <ul className="flex gap-8 font-medium text-white text-sm">
         <li className="hover:text-blue-300 cursor-pointer transition-colors">Home</li>
         <li className="hover:text-blue-300 cursor-pointer transition-colors">About</li>
